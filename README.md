@@ -55,11 +55,12 @@
 ## 📸 Project Screenshots
 
 ### 🔹 Home Page
-![Home](screenshots/Screenshot%202026-04-10%20115228.png)
+![Home](./screenshots/Screenshot%202026-04-10%20115228.png)
 
 ### 🔹 Prediction Output
-![Output1](screenshots/Screenshot%202026-04-10%20194656.png)
-![Output2](screenshots/Screenshot%202026-04-10%20194714.png)
+![Output1](./screenshots/Screenshot%202026-04-10%20194656.png)
+
+![Output2](./screenshots/Screenshot%202026-04-10%20194714.png)
 
  ## 6. COMPILATION / EXECUTION PROCEDURE
 
