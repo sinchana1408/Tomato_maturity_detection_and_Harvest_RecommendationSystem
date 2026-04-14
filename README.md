@@ -52,14 +52,14 @@
 
  Images are resized to 224×224 pixels and augmented using rotation, flipping, and zooming techniques to improve model generalization.
  
- ## 📸 Project Screenshots
+## 📸 Project Screenshots
 
 ### 🔹 Home Page
-![Home](screenshots/home.png)
+<img src="screenshots/home.png" width="700">
 
 ### 🔹 Prediction Output
-![Output1](Screenshot 2026-04-10 194656.png)
-![Output2](Screenshot 2026-04-10 194714.png)
+<img src="screenshots/output1.png" width="700">
+<img src="screenshots/output2.png" width="700">
 
  ## 6. COMPILATION / EXECUTION PROCEDURE
 
