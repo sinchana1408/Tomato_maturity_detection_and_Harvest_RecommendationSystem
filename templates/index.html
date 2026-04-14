@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card">
+    <h2>Upload Tomato Image</h2>
+
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <br><br>
+        <button type="submit">Analyze Tomato</button>
+    </form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card">
+
+    <h2>Prediction Result</h2>
+
+    <img src="{{ image }}" class="preview">
+
+    <h3>Model Comparison</h3>
+
+    <table>
+        <tr>
+            <th>Model</th>
+            <th>Stage</th>
+            <th>Confidence (%)</th>
+        </tr>
+
+        {% for model, data in results.items() %}
+        <tr class="{% if model == best_model %}highlight{% endif %}">
+            <td>{{ model }}</td>
+            <td>{{ data.label }}</td>
+            <td>{{ data.confidence }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <div class="final-result">
+        <h3>Final Prediction</h3>
+        <p><strong>{{ results[best_model].label }}</strong></p>
+        <p>Confidence: {{ results[best_model].confidence }}%</p>
+
+        <p>{{ results[best_model].recommendation }}</p>
+        <p>Harvest Time: {{ results[best_model].days }}</p>
+    </div>
+
+    <br>
+    <a href="/" class="btn">Upload Another</a>
+
+</div>
+
+{% endblock %}

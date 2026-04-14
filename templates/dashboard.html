@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card">
+    <h2> Model Performance Dashboard</h2>
+
+    <div class="grid">
+
+        <div class="dashboard-box">
+            <h3>Radar Chart</h3>
+            <img src="/static/images/model_radar_chart.png" class="dashboard-img">
+        </div>
+
+        <div class="dashboard-box">
+            <h3>Model Ranking</h3>
+            <img src="/static/images/model_performance_ranking.png" class="dashboard-img">
+        </div>
+
+        <div class="dashboard-box">
+            <h3>Training Time</h3>
+            <img src="/static/images/training_time_comparison.png" class="dashboard-img">
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
