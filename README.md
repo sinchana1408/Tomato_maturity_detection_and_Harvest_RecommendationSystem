@@ -1,4 +1,3 @@
-PROJECT TITLE
 
 # TomatoCare: Intelligent Deep Learning-Based Tomato Maturity Classification
 
@@ -52,6 +51,14 @@ PROJECT TITLE
  Green, Breaker, Turning, Pink, and Red.
 
  Images are resized to 224×224 pixels and augmented using rotation, flipping, and zooming techniques to improve model generalization.
+ 
+ ## 📸 Project Screenshots
+
+### 🔹 Home Page
+![Home](screenshots/home.png)
+
+### 🔹 Prediction Output
+![Output](screenshots/output.png)
 
  ## 6. COMPILATION / EXECUTION PROCEDURE
 
