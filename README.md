@@ -58,7 +58,8 @@
 ![Home](screenshots/home.png)
 
 ### 🔹 Prediction Output
-![Output](screenshots/output.png)
+![Output1](screenshots/Screenshot 2026-04-10 194714.png)
+![Output2](screenshots/Screenshot 2026-04-10 194714.png)
 
  ## 6. COMPILATION / EXECUTION PROCEDURE
 
